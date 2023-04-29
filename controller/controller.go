@@ -15,3 +15,7 @@ func GetAllUsers(c echo.Context) error {
 func UpdateAllUsers(c echo.Context) error {
 	return c.JSON(200, "OK")
 }
+
+func DeleteAllUsers(c echo.Context) error {
+	return c.JSON(200, "OK")
+}
